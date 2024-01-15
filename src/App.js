@@ -5,12 +5,6 @@ import ReactDOM from 'react-dom';
 import UserList from './UserList';
 import useUsers from './useUsers';
 
-ReactDOM.render(
-  <React.StrictMode>
-     <UserList />
-  </React.StrictMode>,
-  document.getElementById('root')
- );
 
 function App() {
  const [listOfUsers, setListOfUsers] = useState([]);
